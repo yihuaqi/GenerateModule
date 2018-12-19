@@ -1,0 +1,9 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api "com.google.dagger:dagger:2.19"
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"
